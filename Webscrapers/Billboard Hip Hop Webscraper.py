@@ -28,4 +28,3 @@ with open('Billboard_Hip_Hop_Charts.csv', 'w', newline='') as f:
 
         print(billboard_number,artist_name_a_tag,song_title,last_week_number,peak_position,weeks_on_chart_tag)
         writer.writerow([billboard_number,artist_name_a_tag,song_title,last_week_number,peak_position,weeks_on_chart_tag])
-        #this is a comment
